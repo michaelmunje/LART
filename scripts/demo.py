@@ -135,7 +135,7 @@ def main(cfg: DictConfig) -> Optional[float]:
 
     # # Setup the tracker and track the video
     cfg.phalp.low_th_c = 0.8
-    cfg.phalp.max_age_track = 90
+    # cfg.phalp.max_age_track = 90
     cfg.phalp.small_w = 25
     cfg.phalp.small_h = 50
     
